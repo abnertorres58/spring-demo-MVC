@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../solution-code-spring-mvc-config-files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
