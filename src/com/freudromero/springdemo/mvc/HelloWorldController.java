@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Locale;
 
 @Controller
+@RequestMapping("/hello")
 public class HelloWorldController {
 
     // Need a controller method to show the initial HTML form
