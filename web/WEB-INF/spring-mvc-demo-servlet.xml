@@ -28,25 +28,15 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
-<!--	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">-->
-<!--		<property name="messageConverters">-->
-<!--			<list>-->
-<!--				<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>-->
-<!--				<bean class="org.springframework.http.converter.ByteArrayHttpMessageConverter"/>-->
-<!--				<bean class="org.springframework.http.converter.xml.SourceHttpMessageConverter"/>-->
-<!--				<bean class="org.springframework.http.converter.FormHttpMessageConverter"/>-->
-<!--				<bean class="org.springframework.http.converter.StringHttpMessageConverter"/>-->
-<!--			</list>-->
-<!--		</property>-->
-
-<!--	</bean>-->
-
-<!--	<bean id="validator"-->
-<!--		  class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">-->
-<!--	</bean>-->
-
-
 	<util:properties id="countryOptions" location="classpath:../countries.properties" />
+
+	<!--	Load custom message resources -->
+	<bean id="messageSource"
+			class="org.springframework.context.support.ResourceBundleMessageSource">
+
+		<property name="basenames" value="resources.messages"/>
+
+	</bean>
 
 
 </beans>
