@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-spec-1.2.5-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../spring-framework-5.3.9/libs/taglibs-standard-spec-1.2.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
