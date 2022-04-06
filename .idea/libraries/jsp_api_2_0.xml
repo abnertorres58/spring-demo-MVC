@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsp-api-2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../spring-framework-5.3.9/libs/jsp-api-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
